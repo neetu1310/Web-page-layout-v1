@@ -1,0 +1,43 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+}
+header{
+  background-color: #5d5d5d
+}
+.has-background-image
+{
+  background-image: url("../file_images/banner_image.jpeg");
+  height:500px;
+
+}
+.colour{
+  color: lightgrey
+}
+.has-background-image1{
+  background-image: url("../file_images/banner_image.jpeg");
+  position:absolute;
+  left:100px;
+  width: 50%;
+  height:400px;
+}
+
+
+.ul{
+  position:absolute
+  left:500px;
+
+   display: flex;
+
+  justify-content:space-between;
+  list-style: none;
+  color: none;
+}
